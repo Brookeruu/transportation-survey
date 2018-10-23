@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Transportation Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="transportationSurvey">
+      <h1>Transportation Survey</h1>
+
+        <div class="form-group">
+          <p>Select all the ways you get to work:</p>
+          <input type="checkbox" name="work-transportation" value="bike">Riding your bike </br>
+          <input type="checkbox" name="work-transportation" value="car">Driving your car </br>
+          <input type="checkbox" name="work-transportation" value="train">Taking the train </br>
+          <input type="checkbox" name="work-transportation" value="bus">Taking the bus </br>
+          <input type="checkbox" name="work-transportation" value="walking">Walking </br>
+        </div>
+        <div class="form-group">
+          <p>Select the ways you get to fun:</p>
+          <input type="checkbox" name="fun-transportation" value="bike">Riding your bike </br>
+          <input type="checkbox" name="fun-transportation" value="car">Driving your car </br>
+          <input type="checkbox" name="fun-transportation" value="train">Taking the train </br>
+          <input type="checkbox" name="fun-transportation" value="bus">Taking the bus </br>
+          <input type="checkbox" name="fun-transportation" value="walking">Walking </br>
+          <input type="checkbox" name="fun-transportation" value="uber">Uber/Lyft </br>
+        </div>
+
+        <button type="submit" name="button" class="btn-primary">Submit your results!</button>
+      </form>
+      <div class="work-transportation">
+        <h2>Here are the ways you get to work!</h2>
+        <ul class="workResults">
+
+        </ul>
+      </div>
+      <div class="fun-transportation">
+        <h2>Here are the ways you get to fun!</h2>
+        <ul class="funResults">
+
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
